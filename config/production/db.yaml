@@ -1,0 +1,7 @@
+default:
+  host: 127.0.0.1
+  user: root
+  passwd: root
+  db: myapp
+  charset: utf8
+  timezone: +00:00

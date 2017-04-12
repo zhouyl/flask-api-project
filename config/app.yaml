@@ -1,0 +1,5 @@
+flask:
+  SECRET_KEY: 'kQ3nPa^h@1'
+  JSON_AS_ASCII: False
+  JSON_SORT_KEYS: False
+  JSONIFY_PRETTYPRINT_REGULAR: True

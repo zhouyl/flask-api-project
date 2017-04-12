@@ -1,0 +1,23 @@
+# 参考：
+#   http://www.cnblogs.com/zhouej/archive/2012/03/25/2379646.html
+#   https://uwsgi-docs.readthedocs.io/
+uwsgi:
+
+  # 启动主进程
+  master: 1
+
+  # 用于管理 python 进程的用户组，应当与 nginx 保持一致
+  # uid: www-data
+  # gid: www-data
+
+  # python 启动程序文件
+  wsgi-file: manage.py
+
+  # python 程序内用以启动的 application 变量名
+  callable: app
+
+  # 处理器数
+  processes: 4
+
+  # 线程数
+  threads: 2
