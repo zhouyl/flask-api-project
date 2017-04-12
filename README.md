@@ -4,7 +4,6 @@
 
 + virtualenv (<https://virtualenv.pypa.io/en/stable/>)
 + flask (<http://www.pythondoc.com/flask/>)
-+ happybase (<https://happybase.readthedocs.io/en/latest/>)
 
 ## 2、安装 virtualenv
 
